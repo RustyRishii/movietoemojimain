@@ -8,12 +8,12 @@ export default function Home() {
       </p>
       <div className="flex flex-col items-center md:flex-row md:items-stretch">
         <input
-          className="border rounded-md p-2 text-black text-3xl mb-3 md:mb-0 md:mr-3 w-full md:w-auto"
+          className="border rounded-md p-2 text-white bg-black text-3xl mb-3 md:mb-0 md:mr-3 w-full md:w-auto"
           type="text"
           placeholder="Enter movie title"
         />
         <p className="text-3xl p-5 ">=</p>
-        <div className="border rounded-md p-2 flex items-center justify-center bg-white w-full md:w-96 text-black text-3xl">
+        <div className="border rounded-md p-2 flex items-center justify-center bg-black w-full md:w-96 text-white text-3xl">
           This is a text
         </div>
       </div>
