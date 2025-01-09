@@ -56,7 +56,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Image src="/MovieToEmoji.png" alt="Logo" width={240} height={240} />
       <p className="text-white m-5 text-3xl md:max-w-2xl text-center">
-        Enter Movie or TV series names into Emojis
+        Convert Movie or TV series names into Emojis
       </p>
       <div className="flex flex-col items-center md:flex-row md:items-stretch">
         <input
