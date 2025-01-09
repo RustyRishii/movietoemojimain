@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
+import Link from 'next/link';
 
 const apikey = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
 
@@ -81,6 +82,9 @@ export default function Home() {
       >
         Submit
       </button>
+      <p> Built by
+      <Link>@RustyRishii</Link>
+      </p>
     </div>
   );
 }
